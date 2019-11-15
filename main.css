@@ -1,0 +1,292 @@
+body{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color: #e4e4e4;
+ }
+  /*Global*/
+ .container {
+ 	width: 80%;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ ul {
+ 	padding:0;
+ 	margin:0;
+ }
+ .button_1 {
+ 	height: 38px;
+ 	background: #e8491d;
+ 	border:0;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+ 	color: #ffffff;
+ }
+
+ /*HEADER*/
+ header {
+ 	background: green;
+ 	color: #ffffff;
+ 	padding-top: 30px;
+ 	min-height: 70px;
+ 	border-bottom: #1142ff 3px solid;
+
+ }
+
+ header a {
+ 	color: #ffffff;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 16px;
+ }
+
+
+
+ header li {
+ 	float: left;
+ 	display: inline;
+ 	padding: 0 20px 0 20px;
+ }
+
+ header #branding {
+ 	float: left;
+ }
+
+ header nav {
+ 	float: right;
+ 	margin-top: 20px;
+ }
+
+ header a:hover {
+ 	color: #cccccc;
+ 	font-weight: bold;
+ }
+/*SHOWCASE*/
+ #showcase {
+ 	min-height: 400px;
+ 	background: url("https://cdn.theconversation.com/files/132948/wide_article/width1356x668/8p5tf39v-1470213561.jpg");
+ 	background-size: 100% 100%;
+ 	text-align: center;
+ 	color: #ffffff;
+ }
+ /*SHOWCASE*/
+ #boardz {
+ 	min-height: 400px;
+ 	background: url("https://www.warehouseskateboards.com/images/home/pre-assembled-complete-skateboards.jpg");
+ 	background-size: 100% 100%;
+ 	text-align: center;
+ 	color: #ffffff;
+ }
+ #boardz h1 {
+ 	margin-top: 100px;
+ 	font-size: 55px;
+ 	margin-bottom: 10px;
+ }
+
+ #boardz p {
+ 	font-size: 20px;
+ }
+
+ #showcase h1 {
+ 	margin-top: 100px;
+ 	font-size: 55px;
+ 	margin-bottom: 10px;
+ }
+
+ #showcase p {
+ 	font-size: 20px;
+ }
+/*NEWSLETTER*/
+ #newsletter {
+ 	padding: 15px;
+ 	color: #ffffff;
+ 	background: green;
+ }
+
+ #newsletter h1{
+ 	float: left;
+ }
+
+ #newsletter form {
+ 	float: right;
+ 	margin-top: 15px;
+
+ }
+
+ #newsletter input[type="email"]{
+ 	padding: 4px;
+ 	height: 25px;
+ 	width: 250px;
+ }
+
+ /*BOXES*/
+ #boxes .box {
+ 	float: left;
+ 	text-align: center;
+ 	width: 30%;
+ 	padding: 10px;
+ }
+ #boxes .box img {
+ 	width: 310px;
+ }
+ /*SKATEPARK*/
+ #skatepark {
+ 	background-image: url(http://californiaskateparks.com/wp-content/uploads/2014/08/San-Jose-skatepark.jpg);
+ 	background-size: 100% 100%;
+ 	height: 500px;
+ 	text-align: center;
+
+ }
+  #xgames {
+ 	background-image: url(http://a.espncdn.com/media/motion/2016/0605/actn_160605_X_GAMES_2016_ROLLOUT1355/actn_160605_X_GAMES_2016_ROLLOUT1355.jpg);
+ 	background-size: 100% 100%;
+ 	height: 500px;
+ 	text-align: center;
+
+ }
+ #skate-park {
+  background-image: url(http://californiaskateparks.com/wp-content/uploads/2014/08/San-Jose-skatepark.jpg);
+  background-size: 100% 100%;
+  height: 500px;
+  text-align: center;
+ }
+  #pro-skater {
+  background-image: url(https://i.ytimg.com/vi/p3NXd3DhH08/maxresdefault.jpg);
+  background-size: 100% 100%;
+  height: 500px;
+  text-align: center;
+ }
+
+ footer{
+ 	padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d; 
+    text-align: center;
+  }
+
+  #board{
+    min-height: 450px;
+    min-width: 300px;
+    background: url(https://hdwallsource.com/img/2014/8/skateboard-wallpaper-7544-7829-hd-wallpapers.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    margin-top: 125px;
+    text-align: center;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+  }
+  #board h2{
+    font-size: 65px;
+    margin top: 10px;
+    margin-bottom: 20px;
+    color: green;
+    text-shadow: 3px 2px #000;
+    font-weight: 30px;
+  }
+
+  #board p{
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      color: #ffffff;
+  }
+  #board button{
+      margin-top: 170px;
+      margin-bottom: 40px;
+      background-color: orange;
+      color: white;
+      font-size: 20px;
+  }
+  .viewboard{
+    margin-bottom: 70px;
+  }
+  #h1id{
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-family: cursive;
+    background-color: default;
+  }
+  .btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mainimg{
+    text-align: center;
+  }
+  .shadow{
+    text-shadow: 3px 2px red;
+  }
+  
+  #board1{
+    min-height: 450px;
+    min-width: 300px;
+    background: url(http://idealphotography.biz/wp-content/uploads/2017/03/skateboard-wallpaper-in-best-iphone-wallpapers-tumblr-skateboard-designs.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100% 100%;
+    margin-top: 85px;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    border: 4px solid #f00;
+  }
+  #board1 h2{
+    font-size: 4.5em;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 2px 3px red;
+  }
+  #board1 p{
+    font-size: 22px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .mainimg1 h3{
+    color: red;
+  }
+  #board1 h3{
+    color: #fff;
+    text-shadow: 2px 3px red;
+  }
+  .longboard img{
+    max-height: 340px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .longboard button{
+    margin: 70px 0;
+  }
+  .bc{
+    font-size: 100px;
+    color: orange;
+    font-family: monospace;
+  }
+  #main h1{
+    font-size: 100px;
+    font-family: monospace;
+  }
+  .blogtitle h2{
+    font-size: 80px;
+    margin: 35px 0;
+  }
+  #blogx li{
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.2em;
+    line-height: 1.8;
+    border: 1px solid red;
+  }
+  
+
